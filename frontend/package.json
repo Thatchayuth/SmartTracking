@@ -1,0 +1,32 @@
+{
+  "name": "smart-tracking-frontend",
+  "version": "1.0.0",
+  "description": "GPS Tracking Sale - Quasar Frontend",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.ts,.vue ./src"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "@quasar/extras": "^1.16.12",
+    "axios": "^1.7.7",
+    "pinia": "^2.2.2",
+    "quasar": "^2.16.0",
+    "socket.io-client": "^4.7.5",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.10.0",
+    "@quasar/cli": "^2.5.0",
+    "@types/node": "^20.14.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "typescript": "^5.5.0"
+  }
+}
